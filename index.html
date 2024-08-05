@@ -6,9 +6,27 @@
     <title>Goit MCS Advancedjs hw-03</title>
     
     <script type="module" crossorigin src="/goit-mcs-advancedjs-hw-03/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-mcs-advancedjs-hw-03/assets/index-a506b367.css">
+    <link rel="modulepreload" crossorigin href="/goit-mcs-advancedjs-hw-03/assets/vendor-8c59ed88.js">
+    <link rel="stylesheet" href="/goit-mcs-advancedjs-hw-03/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-mcs-advancedjs-hw-03/assets/index-3133ade9.css">
   </head>
   <body>
+    <form class="search-form" aria-label="Search form">
+      <input
+        class="input"
+        type="text"
+        name="search-value"
+        placeholder="Search images..."
+      />
+      <button class="button" type="submit">Search</button>
+    </form>
+
+    <div class="container">
+      <ul class="gallery"></ul>
+
+      <span class="progress-bar"></span>
+    </div>
+
     
   </body>
 </html>
